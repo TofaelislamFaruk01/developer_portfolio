@@ -13,7 +13,7 @@ h1 {
 } */
 .halfclass {
   width: 50%;
-  padding: 5%;
+  padding: 3%;
 }
 .halfclass img {
   width: 100%;
@@ -23,72 +23,62 @@ h1 {
   text-decoration: none;
   color: white;
   /* background-color: orange; */
-  background-image: linear-gradient(orange,tomato);
+  background-image: linear-gradient(orange, tomato);
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 700;
   /* padding-bottom: 20px; */
 }
-.top_banner{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
-    display: flex;
-    
-}
-.dream_big{
-    background-image: url(dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.last_part{
-
+.top_banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
   display: flex;
-
 }
-#last-part-header{
+.dream_big {
+  display: flex;
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
+.last_part {
+  display: flex;
+}
+#last-part-header {
   text-align: center;
 }
-.last-part-item{
-
+.last-part-item {
   box-shadow: 10px 10px 80px gray;
-  
+
   width: 50%;
   padding: 3%;
   margin: 3%;
-  
- 
- 
-  
 }
-h2{
+h2 {
   font-size: 30px;
 }
-.last-image{
+.last-image {
   background-image: url(exp-bg.png);
   background-repeat: no-repeat;
-  background-position-y: 70% ;
+  background-position-y: 70%;
 }
-#web-developer{
-   border-left: 5px solid;
+#web-developer {
+  border-left: 5px solid;
   border-radius: 2%;
-  border-image: linear-gradient(rgb(212, 0, 255),rgb(255, 0, 157)) ;
+  border-image: linear-gradient(rgb(212, 0, 255), rgb(255, 0, 157));
   border-image-slice: 1;
 }
-#baby-web{
-   border-left: 5px solid;
+#baby-web {
+  border-left: 5px solid;
   border-radius: 2%;
-  border-image: linear-gradient(rgb(229, 255, 0),rgb(0, 225, 255)) ;
+  border-image: linear-gradient(rgb(229, 255, 0), rgb(0, 225, 255));
   border-image-slice: 1;
 }
-.footer{
-
- 
-   /* border: 5%; */
-   text-align: center;
-   font-size: 20px;
-   font-weight: bold;
-   background-color: rgba(192, 192, 192, 0.774);
-   padding: 10px;
+.footer {
+  /* border: 5%; */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(192, 192, 192, 0.774);
+  padding: 10px;
 }
